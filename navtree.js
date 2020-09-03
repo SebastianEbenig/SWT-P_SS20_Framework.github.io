@@ -1,13 +1,10 @@
 var NAVTREE =
 [
   [ "SWTP2020_Framework", "index.html", [
-    [ "Packages", null, [
-      [ "Packages", "namespaces.html", "namespaces" ],
-      [ "Package Functions", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", null ],
-        [ "Enumerations", "namespacemembers_enum.html", null ],
-        [ "Enumerator", "namespacemembers_eval.html", null ]
-      ] ]
+    [ "Package Functions", "namespacemembers.html", [
+      [ "All", "namespacemembers.html", null ],
+      [ "Enumerations", "namespacemembers_enum.html", null ],
+      [ "Enumerator", "namespacemembers_eval.html", null ]
     ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
