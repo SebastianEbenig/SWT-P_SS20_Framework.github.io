@@ -148,9 +148,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a41bb94c754caafcaea8bef8675faa329"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory_controller.html#a41bb94c754caafcaea8bef8675faa329">ToggleCanvas</a> ()</td></tr>
 <tr class="memdesc:a41bb94c754caafcaea8bef8675faa329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggle the inventory canvas.  <a href="#a41bb94c754caafcaea8bef8675faa329">More...</a><br /></td></tr>
 <tr class="separator:a41bb94c754caafcaea8bef8675faa329"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1c676aab9a1682a7bc53b49c59ae8a1"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory_controller.html#ad1c676aab9a1682a7bc53b49c59ae8a1">GetAllCardsFromSet</a> (int cardSetId)</td></tr>
-<tr class="memdesc:ad1c676aab9a1682a7bc53b49c59ae8a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all cards from a given set.  <a href="#ad1c676aab9a1682a7bc53b49c59ae8a1">More...</a><br /></td></tr>
-<tr class="separator:ad1c676aab9a1682a7bc53b49c59ae8a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b0c265e97754941b16732e0ac172ada"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory_controller.html#a5b0c265e97754941b16732e0ac172ada">GetAllCardsFromSetFromInventory</a> (int cardSetId)</td></tr>
+<tr class="memdesc:a5b0c265e97754941b16732e0ac172ada"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all cards from a given set from the inventory.  <a href="#a5b0c265e97754941b16732e0ac172ada">More...</a><br /></td></tr>
+<tr class="separator:a5b0c265e97754941b16732e0ac172ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb967a80865b4f66d449f515c73a52fe"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory_controller.html#afb967a80865b4f66d449f515c73a52fe">GetAllCardsFromSetFromDeck</a> (int cardSetId)</td></tr>
+<tr class="memdesc:afb967a80865b4f66d449f515c73a52fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns all cards from a given set from the deck.  <a href="#afb967a80865b4f66d449f515c73a52fe">More...</a><br /></td></tr>
+<tr class="separator:afb967a80865b4f66d449f515c73a52fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42747c8b6c612195ccd922dedf11e63d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory_controller.html#a42747c8b6c612195ccd922dedf11e63d">IsVisible</a> ()</td></tr>
+<tr class="memdesc:a42747c8b6c612195ccd922dedf11e63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns if the inventory is visible at the moment.  <a href="#a42747c8b6c612195ccd922dedf11e63d">More...</a><br /></td></tr>
+<tr class="separator:a42747c8b6c612195ccd922dedf11e63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76450f9f8a8a0f18044e362c4182a18b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a76450f9f8a8a0f18044e362c4182a18b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetInventories</b> (List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory.html">Inventory</a> &gt; newInventories)</td></tr>
+<tr class="separator:a76450f9f8a8a0f18044e362c4182a18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae664c50ef06a3638a03c98b76a82805b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae664c50ef06a3638a03c98b76a82805b"></a>
+List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory.html">Inventory</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetInventories</b> ()</td></tr>
+<tr class="separator:ae664c50ef06a3638a03c98b76a82805b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -229,12 +241,12 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>CoinAmount</b> =&gt; c
 
 </div>
 </div>
-<a class="anchor" id="ad1c676aab9a1682a7bc53b49c59ae8a1"></a>
+<a class="anchor" id="afb967a80865b4f66d449f515c73a52fe"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">List&lt;<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a>&gt; Framework.Scripts.Player.InventoryController.GetAllCardsFromSet </td>
+          <td class="memname">List&lt;<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a>&gt; Framework.Scripts.Player.InventoryController.GetAllCardsFromSetFromDeck </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>cardSetId</em></td><td>)</td>
@@ -243,7 +255,32 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>CoinAmount</b> =&gt; c
       </table>
 </div><div class="memdoc">
 
-<p>Returns all cards from a given set. </p>
+<p>Returns all cards from a given set from the deck. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cardSetId</td><td>CardSetId to look for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>All cards from the given set</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a5b0c265e97754941b16732e0ac172ada"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a>&gt; Framework.Scripts.Player.InventoryController.GetAllCardsFromSetFromInventory </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cardSetId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns all cards from a given set from the inventory. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">cardSetId</td><td>CardSetId to look for</td></tr>
@@ -276,6 +313,24 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>CoinAmount</b> =&gt; c
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>How often has the player this card</dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a42747c8b6c612195ccd922dedf11e63d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Framework.Scripts.Player.InventoryController.IsVisible </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns if the inventory is visible at the moment. </p>
+<dl class="section return"><dt>Returns</dt><dd>Is the inventory visible</dd></dl>
 
 </div>
 </div>

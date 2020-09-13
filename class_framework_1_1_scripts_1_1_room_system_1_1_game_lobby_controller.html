@@ -106,6 +106,7 @@ $(document).ready(function(){initNavTree('class_framework_1_1_scripts_1_1_room_s
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#properties">Properties</a> &#124;
 <a href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Framework.Scripts.RoomSystem.GameLobbyController Class Reference</div>  </div>
@@ -134,30 +135,48 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a386ca8d67b5079cc8201128cb8864d66"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a386ca8d67b5079cc8201128cb8864d66">JoinRoom</a> (<a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html">Room</a> room)</td></tr>
 <tr class="memdesc:a386ca8d67b5079cc8201128cb8864d66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes the local player join a room.  <a href="#a386ca8d67b5079cc8201128cb8864d66">More...</a><br /></td></tr>
 <tr class="separator:a386ca8d67b5079cc8201128cb8864d66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a566bdf13fc04f68deb84a718244c4f81"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a566bdf13fc04f68deb84a718244c4f81">ToggleRoomOverview</a> (bool overviewOn)</td></tr>
-<tr class="memdesc:a566bdf13fc04f68deb84a718244c4f81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles the room overview on/off and loads Rooms from server if necessary.  <a href="#a566bdf13fc04f68deb84a718244c4f81">More...</a><br /></td></tr>
-<tr class="separator:a566bdf13fc04f68deb84a718244c4f81"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80b52a3ebdeb0dfb324d8dc362011f78"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a80b52a3ebdeb0dfb324d8dc362011f78">EnterRoom</a> (<a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html">Room</a> room)</td></tr>
-<tr class="memdesc:a80b52a3ebdeb0dfb324d8dc362011f78"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enters the room on the local client and activates necessary GUI.  <a href="#a80b52a3ebdeb0dfb324d8dc362011f78">More...</a><br /></td></tr>
-<tr class="separator:a80b52a3ebdeb0dfb324d8dc362011f78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30427831aa04ee6929df5ed7dd3a270a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a30427831aa04ee6929df5ed7dd3a270a">LeaveRoom</a> ()</td></tr>
-<tr class="memdesc:a30427831aa04ee6929df5ed7dd3a270a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leaves the active room and activates necessary GUI.  <a href="#a30427831aa04ee6929df5ed7dd3a270a">More...</a><br /></td></tr>
-<tr class="separator:a30427831aa04ee6929df5ed7dd3a270a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeb578b9185d3ee8a7a8e0497c2ce2aa8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#aeb578b9185d3ee8a7a8e0497c2ce2aa8">ToggleIsPlayerReady</a> (<a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html">RoomPlayer</a> roomPlayer, int roomId, bool isReady)</td></tr>
 <tr class="memdesc:aeb578b9185d3ee8a7a8e0497c2ce2aa8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Toggles if the room player is ready or not.  <a href="#aeb578b9185d3ee8a7a8e0497c2ce2aa8">More...</a><br /></td></tr>
 <tr class="separator:aeb578b9185d3ee8a7a8e0497c2ce2aa8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dcd3b9758f77c2d7cb15ed342c8b0f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a4dcd3b9758f77c2d7cb15ed342c8b0f5">BetCard</a> (<a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html">RoomPlayer</a> roomPlayer, int roomId, int cardId)</td></tr>
-<tr class="memdesc:a4dcd3b9758f77c2d7cb15ed342c8b0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bets a card. This is used for the game lobby option "cardOffer".  <a href="#a4dcd3b9758f77c2d7cb15ed342c8b0f5">More...</a><br /></td></tr>
+<tr class="memdesc:a4dcd3b9758f77c2d7cb15ed342c8b0f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bets a card. This is used for the player lobby option "cardOffer".  <a href="#a4dcd3b9758f77c2d7cb15ed342c8b0f5">More...</a><br /></td></tr>
 <tr class="separator:a4dcd3b9758f77c2d7cb15ed342c8b0f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a041db3bdf10852dd9739f4f66088ea6e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a041db3bdf10852dd9739f4f66088ea6e">ChooseTeam</a> (<a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html">RoomPlayer</a> roomPlayer, int roomId, int teamNumber)</td></tr>
+<tr class="memdesc:a041db3bdf10852dd9739f4f66088ea6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chooses a team for a player. This is used for the player lobby option "teams".  <a href="#a041db3bdf10852dd9739f4f66088ea6e">More...</a><br /></td></tr>
+<tr class="separator:a041db3bdf10852dd9739f4f66088ea6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a21585f36267269392de8b360ac6f9007"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a21585f36267269392de8b360ac6f9007">UpdateRooms</a> (<a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html">Room</a>[] updatedRooms)</td></tr>
 <tr class="memdesc:a21585f36267269392de8b360ac6f9007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Updates all the rooms on the client. Also updates either roomOverview GUI or roomGUI depending on which is active.  <a href="#a21585f36267269392de8b360ac6f9007">More...</a><br /></td></tr>
 <tr class="separator:a21585f36267269392de8b360ac6f9007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75e1e29c6fe3b34bf0831163906468e6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a75e1e29c6fe3b34bf0831163906468e6">ChooseGUI</a> ()</td></tr>
-<tr class="memdesc:a75e1e29c6fe3b34bf0831163906468e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chooses the correct gui for the playerLobbyOption of this game.  <a href="#a75e1e29c6fe3b34bf0831163906468e6">More...</a><br /></td></tr>
-<tr class="separator:a75e1e29c6fe3b34bf0831163906468e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a188abbc13f835382e24225004ef1ad06"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html">Room</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a188abbc13f835382e24225004ef1ad06">GetRoomById</a> (int roomId)</td></tr>
 <tr class="memdesc:a188abbc13f835382e24225004ef1ad06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Utility function for getting room by room id.  <a href="#a188abbc13f835382e24225004ef1ad06">More...</a><br /></td></tr>
 <tr class="separator:a188abbc13f835382e24225004ef1ad06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add7ad11b8abeb94b4d9a773924357011"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add7ad11b8abeb94b4d9a773924357011"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetWaitingScreen</b> (GameObject obj)</td></tr>
+<tr class="separator:add7ad11b8abeb94b4d9a773924357011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522b24b0539daafaa8c0c7cc493c81a8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a522b24b0539daafaa8c0c7cc493c81a8"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetNameDisplay</b> (TextMeshPro mesh)</td></tr>
+<tr class="separator:a522b24b0539daafaa8c0c7cc493c81a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7be5b7aed4917e4b7e88d6671f7d7ec2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7be5b7aed4917e4b7e88d6671f7d7ec2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCountDownOverlay</b> (Image img)</td></tr>
+<tr class="separator:a7be5b7aed4917e4b7e88d6671f7d7ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4a1bfcd0e7cae164872a9682c0a8c15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab4a1bfcd0e7cae164872a9682c0a8c15"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCountDownText</b> (Text text)</td></tr>
+<tr class="separator:ab4a1bfcd0e7cae164872a9682c0a8c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ec0eda6dd228cc26576955ce1aa5c2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a59ec0eda6dd228cc26576955ce1aa5c2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetGameLobby</b> (GameObject lobby)</td></tr>
+<tr class="separator:a59ec0eda6dd228cc26576955ce1aa5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56089357ea168614f228a115cb62883f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a56089357ea168614f228a115cb62883f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRooms</b> (List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html">Room</a> &gt; newRooms)</td></tr>
+<tr class="separator:a56089357ea168614f228a115cb62883f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b962337d70f29c08c3793f488699823"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4b962337d70f29c08c3793f488699823"></a>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>GetWaitingScreen</b> ()</td></tr>
+<tr class="separator:a4b962337d70f29c08c3793f488699823"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a93a3e9afe0cb521b54356938df1820"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a93a3e9afe0cb521b54356938df1820"></a>
+TextMeshPro&#160;</td><td class="memItemRight" valign="bottom"><b>GetNameDisplay</b> ()</td></tr>
+<tr class="separator:a5a93a3e9afe0cb521b54356938df1820"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b948349cdd8df50f6abf7bc14c3070"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad0b948349cdd8df50f6abf7bc14c3070"></a>
+GameObject&#160;</td><td class="memItemRight" valign="bottom"><b>GetGameLobby</b> ()</td></tr>
+<tr class="separator:ad0b948349cdd8df50f6abf7bc14c3070"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
@@ -173,6 +192,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9ef3e34c720c275b0d1228497e0de6e5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9ef3e34c720c275b0d1228497e0de6e5"></a>
 List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html">Room</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>Rooms</b> =&gt; rooms</td></tr>
 <tr class="separator:a9ef3e34c720c275b0d1228497e0de6e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+Properties</h2></td></tr>
+<tr class="memitem:a8224d2f60ede158932fa2de346428a1b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8224d2f60ede158932fa2de346428a1b"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>InputDisabled</b><code> [set]</code></td></tr>
+<tr class="separator:a8224d2f60ede158932fa2de346428a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a game lobby controller. </p>
@@ -208,7 +233,7 @@ List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_roo
       </table>
 </div><div class="memdoc">
 
-<p>Bets a card. This is used for the game lobby option "cardOffer". </p>
+<p>Bets a card. This is used for the player lobby option "cardOffer". </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">roomPlayer</td><td><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html" title="This class represents a player in a room. ">RoomPlayer</a> that betted the card</td></tr>
@@ -220,41 +245,42 @@ List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_roo
 
 </div>
 </div>
-<a class="anchor" id="a75e1e29c6fe3b34bf0831163906468e6"></a>
+<a class="anchor" id="a041db3bdf10852dd9739f4f66088ea6e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Framework.Scripts.RoomSystem.GameLobbyController.ChooseGUI </td>
+          <td class="memname">void Framework.Scripts.RoomSystem.GameLobbyController.ChooseTeam </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html">RoomPlayer</a>&#160;</td>
+          <td class="paramname"><em>roomPlayer</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Chooses the correct gui for the playerLobbyOption of this game. </p>
-
-</div>
-</div>
-<a class="anchor" id="a80b52a3ebdeb0dfb324d8dc362011f78"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">void Framework.Scripts.RoomSystem.GameLobbyController.EnterRoom </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html">Room</a>&#160;</td>
-          <td class="paramname"><em>room</em></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>roomId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>teamNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Enters the room on the local client and activates necessary GUI. </p>
+<p>Chooses a team for a player. This is used for the player lobby option "teams". </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">room</td><td><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html" title="This class represents a room for a game. ">Room</a> to enter</td></tr>
+    <tr><td class="paramname">roomPlayer</td><td><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html" title="This class represents a player in a room. ">RoomPlayer</a> that chose a team</td></tr>
+    <tr><td class="paramname">roomId</td><td>Id of the room</td></tr>
+    <tr><td class="paramname">teamNumber</td><td>Team that the player choose</td></tr>
   </table>
   </dd>
 </dl>
@@ -397,23 +423,6 @@ List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_roo
 
 </div>
 </div>
-<a class="anchor" id="a30427831aa04ee6929df5ed7dd3a270a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Framework.Scripts.RoomSystem.GameLobbyController.LeaveRoom </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Leaves the active room and activates necessary GUI. </p>
-
-</div>
-</div>
 <a class="anchor" id="ac3f99dd507f04a844721451320843b15"></a>
 <div class="memitem">
 <div class="memproto">
@@ -475,30 +484,6 @@ List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_roo
     <tr><td class="paramname">roomPlayer</td><td><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html" title="This class represents a player in a room. ">RoomPlayer</a> to be ready or not</td></tr>
     <tr><td class="paramname">roomId</td><td>Id of the room</td></tr>
     <tr><td class="paramname">isReady</td><td>Is the player ready</td></tr>
-  </table>
-  </dd>
-</dl>
-
-</div>
-</div>
-<a class="anchor" id="a566bdf13fc04f68deb84a718244c4f81"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Framework.Scripts.RoomSystem.GameLobbyController.ToggleRoomOverview </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>overviewOn</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Toggles the room overview on/off and loads Rooms from server if necessary. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">overviewOn</td><td>Should the room overview be turned on</td></tr>
   </table>
   </dd>
 </dl>

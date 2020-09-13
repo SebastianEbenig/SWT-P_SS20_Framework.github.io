@@ -141,6 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1b3665af6b8f551b942da204e8b3f19f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_client.html#a1b3665af6b8f551b942da204e8b3f19f">CmdBetCard</a> (int gameId, int roomId, uint playerNetId, int cardId)</td></tr>
 <tr class="memdesc:a1b3665af6b8f551b942da204e8b3f19f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Bets a card for a player.  <a href="#a1b3665af6b8f551b942da204e8b3f19f">More...</a><br /></td></tr>
 <tr class="separator:a1b3665af6b8f551b942da204e8b3f19f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af90ce8fc9e1f7c3c384e05df3db81a98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_client.html#af90ce8fc9e1f7c3c384e05df3db81a98">CmdChooseTeam</a> (int gameId, int roomId, uint playerNetId, int teamNumber)</td></tr>
+<tr class="memdesc:af90ce8fc9e1f7c3c384e05df3db81a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chooses a team for a player.  <a href="#af90ce8fc9e1f7c3c384e05df3db81a98">More...</a><br /></td></tr>
+<tr class="separator:af90ce8fc9e1f7c3c384e05df3db81a98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a players interface for interacting with the room system. </p>
@@ -190,6 +193,56 @@ Public Member Functions</h2></td></tr>
     <tr><td class="paramname">roomId</td><td>Id of the room</td></tr>
     <tr><td class="paramname">playerNetId</td><td>Id of the player that betted</td></tr>
     <tr><td class="paramname">cardId</td><td>Id of the card that was betted</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af90ce8fc9e1f7c3c384e05df3db81a98"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Framework.Scripts.RoomSystem.RoomClient.CmdChooseTeam </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>gameId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>roomId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint&#160;</td>
+          <td class="paramname"><em>playerNetId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>teamNumber</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Chooses a team for a player. </p>
+<p>This should only be called for games that have game lobby option "teams". </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gameId</td><td>Id of the game</td></tr>
+    <tr><td class="paramname">roomId</td><td>Id of the room</td></tr>
+    <tr><td class="paramname">playerNetId</td><td>Id of the player that betted</td></tr>
+    <tr><td class="paramname">teamNumber</td><td>Team that the player choose</td></tr>
   </table>
   </dd>
 </dl>

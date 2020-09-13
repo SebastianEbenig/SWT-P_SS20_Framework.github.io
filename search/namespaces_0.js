@@ -6,6 +6,7 @@ var searchData=
   ['loginsystem',['LoginSystem',['../namespace_framework_1_1_scripts_1_1_login_system.html',1,'Framework::Scripts']]],
   ['option_5fcardoffer',['Option_CardOffer',['../namespace_framework_1_1_scripts_1_1_room_system_1_1_option___card_offer.html',1,'Framework::Scripts::RoomSystem']]],
   ['option_5fnormal',['Option_Normal',['../namespace_framework_1_1_scripts_1_1_room_system_1_1_option___normal.html',1,'Framework::Scripts::RoomSystem']]],
+  ['option_5fteams',['Option_Teams',['../namespace_framework_1_1_scripts_1_1_room_system_1_1_option___teams.html',1,'Framework::Scripts::RoomSystem']]],
   ['player',['Player',['../namespace_framework_1_1_scripts_1_1_player.html',1,'Framework::Scripts']]],
   ['roomsystem',['RoomSystem',['../namespace_framework_1_1_scripts_1_1_room_system.html',1,'Framework::Scripts']]],
   ['scripts',['Scripts',['../namespace_framework_1_1_scripts.html',1,'Framework']]],

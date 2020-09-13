@@ -156,6 +156,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab9f8dcfc007fffb65eeb0658138ff4b7"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_container.html#ab9f8dcfc007fffb65eeb0658138ff4b7">GetAllCards</a> ()</td></tr>
 <tr class="memdesc:ab9f8dcfc007fffb65eeb0658138ff4b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets all cards in this container from the slots.  <a href="#ab9f8dcfc007fffb65eeb0658138ff4b7">More...</a><br /></td></tr>
 <tr class="separator:ab9f8dcfc007fffb65eeb0658138ff4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9dd5d0efad4e355868bb020d4123452"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab9dd5d0efad4e355868bb020d4123452"></a>
+List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_slot.html">CardSlot</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>getSlots</b> ()</td></tr>
+<tr class="separator:ab9dd5d0efad4e355868bb020d4123452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2a14ee436a41616d6573a3507f4375a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab2a14ee436a41616d6573a3507f4375a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetMaxSlotAmount</b> (int range)</td></tr>
+<tr class="separator:ab2a14ee436a41616d6573a3507f4375a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b264ccd395383dd95afad1f43b5c263"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0b264ccd395383dd95afad1f43b5c263"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetStartSlotAmount</b> (int range)</td></tr>
+<tr class="separator:a0b264ccd395383dd95afad1f43b5c263"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a772d5e454d3e56c80c0c258f17f32675"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a772d5e454d3e56c80c0c258f17f32675"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCardSlotPrefab</b> (<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_slot.html">CardSlot</a> obj)</td></tr>
+<tr class="separator:a772d5e454d3e56c80c0c258f17f32675"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49b46de689e40983f96519a562dfa840"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a49b46de689e40983f96519a562dfa840"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCardSlotParent</b> (Transform trf)</td></tr>
+<tr class="separator:a49b46de689e40983f96519a562dfa840"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01d787968701e3d39fe46413924c6e62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_container.html#a01d787968701e3d39fe46413924c6e62">TestRemoveCard</a> (<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a> cardInfo)</td></tr>
+<tr class="memdesc:a01d787968701e3d39fe46413924c6e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes the first instance of a card (Internal Test-Method).  <a href="#a01d787968701e3d39fe46413924c6e62">More...</a><br /></td></tr>
+<tr class="separator:a01d787968701e3d39fe46413924c6e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -247,7 +265,7 @@ John Beinecke </dd></dl>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory.html#a59f68dc5d21fd7ffde2d8e574065bfda">Framework.Scripts.Player.Inventory</a>, <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_selling_inventory.html#a7d722f3973937798854cb6cdb781a3c6">Framework.Scripts.CardSystem.SellingInventory</a>, <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_option___card_offer_1_1_betting_inventory.html#a76879b7d52d4a44cc62edc0dd2cf9342">Framework.Scripts.RoomSystem.Option_CardOffer.BettingInventory</a>, <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_deck.html#abff0470388e64f3ff6d65d484a4a2ef7">Framework.Scripts.CardSystem.Deck</a>, <a class="el" href="class_framework_1_1_scripts_1_1_trading_system_1_1_offering_inventory.html#adc17d8f639550c175ea2e7c5b8055829">Framework.Scripts.TradingSystem.OfferingInventory</a>, and <a class="el" href="class_framework_1_1_scripts_1_1_trading_system_1_1_display_inventory.html#ad3e20c7bd2e4d3c798cc20d2909e4d27">Framework.Scripts.TradingSystem.DisplayInventory</a>.</p>
+<p>Implemented in <a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_inventory.html#a59f68dc5d21fd7ffde2d8e574065bfda">Framework.Scripts.Player.Inventory</a>, <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_selling_inventory.html#a7d722f3973937798854cb6cdb781a3c6">Framework.Scripts.CardSystem.SellingInventory</a>, <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_deck.html#abff0470388e64f3ff6d65d484a4a2ef7">Framework.Scripts.CardSystem.Deck</a>, <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_option___card_offer_1_1_betting_inventory.html#a76879b7d52d4a44cc62edc0dd2cf9342">Framework.Scripts.RoomSystem.Option_CardOffer.BettingInventory</a>, <a class="el" href="class_framework_1_1_scripts_1_1_trading_system_1_1_offering_inventory.html#adc17d8f639550c175ea2e7c5b8055829">Framework.Scripts.TradingSystem.OfferingInventory</a>, and <a class="el" href="class_framework_1_1_scripts_1_1_trading_system_1_1_display_inventory.html#ad3e20c7bd2e4d3c798cc20d2909e4d27">Framework.Scripts.TradingSystem.DisplayInventory</a>.</p>
 
 </div>
 </div>
@@ -479,6 +497,30 @@ John Beinecke </dd></dl>
 <p>Deactivates container. </p>
 
 <p>Reimplemented in <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_selling_inventory.html#ad51128e5d1bf17565f4d151b2e0607e0">Framework.Scripts.CardSystem.SellingInventory</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a01d787968701e3d39fe46413924c6e62"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Framework.Scripts.CardSystem.CardContainer.TestRemoveCard </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a>&#160;</td>
+          <td class="paramname"><em>cardInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes the first instance of a card (Internal Test-Method). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cardInfo</td><td>Card to remove</td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>

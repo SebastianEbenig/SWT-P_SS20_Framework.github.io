@@ -104,7 +104,7 @@ $(document).ready(function(){initNavTree('class_framework_1_1_scripts_1_1_card_s
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -112,7 +112,7 @@ $(document).ready(function(){initNavTree('class_framework_1_1_scripts_1_1_card_s
 </div><!--header-->
 <div class="contents">
 
-<p>This class represents a container for all information about cards.  
+<p>This class represents a container for all information about cards and cardSets.  
  <a href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for Framework.Scripts.CardSystem.CardLoader:</div>
@@ -125,30 +125,45 @@ Inheritance diagram for Framework.Scripts.CardSystem.CardLoader:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a225ccb1e9e8b30151871fc8c5a42cff5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_set.html">CardSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html#a225ccb1e9e8b30151871fc8c5a42cff5">GetCardSetForId</a> (int cardSetId)</td></tr>
+<tr class="memdesc:a225ccb1e9e8b30151871fc8c5a42cff5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets a card set for a given card set id.  <a href="#a225ccb1e9e8b30151871fc8c5a42cff5">More...</a><br /></td></tr>
+<tr class="separator:a225ccb1e9e8b30151871fc8c5a42cff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a829bfb8b31bc9037cbdee58aefe3978d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html#a829bfb8b31bc9037cbdee58aefe3978d">GetCardById</a> (int cardId)</td></tr>
 <tr class="memdesc:a829bfb8b31bc9037cbdee58aefe3978d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Allows access to card information over id.  <a href="#a829bfb8b31bc9037cbdee58aefe3978d">More...</a><br /></td></tr>
 <tr class="separator:a829bfb8b31bc9037cbdee58aefe3978d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af320e85acb4d42b05616b58cad257879"><td class="memItemLeft" align="right" valign="top">Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html#af320e85acb4d42b05616b58cad257879">GetColorForRarity</a> (<a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5">CardRarity</a> rarity)</td></tr>
+<tr class="memdesc:af320e85acb4d42b05616b58cad257879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the color for a given card rarity.  <a href="#af320e85acb4d42b05616b58cad257879">More...</a><br /></td></tr>
+<tr class="separator:af320e85acb4d42b05616b58cad257879"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab88341780cfa2c382d0f2fd9e9c014c8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html#ab88341780cfa2c382d0f2fd9e9c014c8">GetRandomCardIdForRarity</a> (<a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5">CardRarity</a> cardRarity)</td></tr>
 <tr class="memdesc:ab88341780cfa2c382d0f2fd9e9c014c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the id of a random card that has a given rarity.  <a href="#ab88341780cfa2c382d0f2fd9e9c014c8">More...</a><br /></td></tr>
 <tr class="separator:ab88341780cfa2c382d0f2fd9e9c014c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7f90c745cbd48f8e09994ab6e26200d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html#ab7f90c745cbd48f8e09994ab6e26200d">GetValueForCard</a> (<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a> cardInfo)</td></tr>
 <tr class="memdesc:ab7f90c745cbd48f8e09994ab6e26200d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the value of the card, depending on its rarity.  <a href="#ab7f90c745cbd48f8e09994ab6e26200d">More...</a><br /></td></tr>
 <tr class="separator:ab7f90c745cbd48f8e09994ab6e26200d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50a17467b5596935c47f6cbea787ef51"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50a17467b5596935c47f6cbea787ef51"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCardSets</b> (List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_set.html">CardSet</a> &gt; sets)</td></tr>
+<tr class="separator:a50a17467b5596935c47f6cbea787ef51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af68906cb241866cf9ed8b7ef9736ea95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af68906cb241866cf9ed8b7ef9736ea95"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCardInfos</b> (List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_info.html">CardInfo</a> &gt; list)</td></tr>
+<tr class="separator:af68906cb241866cf9ed8b7ef9736ea95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab53b1a6186d0f1145b4acde250f3fceb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab53b1a6186d0f1145b4acde250f3fceb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetCommonColor</b> (Color color)</td></tr>
+<tr class="separator:ab53b1a6186d0f1145b4acde250f3fceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8516cf4cc97e5549f2054f949889b2"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a8516cf4cc97e5549f2054f949889b2"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetUnCommonColor</b> (Color color)</td></tr>
+<tr class="separator:a1a8516cf4cc97e5549f2054f949889b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a182085f4c28e704ebfa990f59c400167"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a182085f4c28e704ebfa990f59c400167"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetRareColor</b> (Color color)</td></tr>
+<tr class="separator:a182085f4c28e704ebfa990f59c400167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644dced4e4f9a57d3cd69350e12399e1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a644dced4e4f9a57d3cd69350e12399e1"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>SetLegendaryColor</b> (Color color)</td></tr>
+<tr class="separator:a644dced4e4f9a57d3cd69350e12399e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a6c5023adee3e916c84a779d57682ab95"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c5023adee3e916c84a779d57682ab95"></a>
-Color&#160;</td><td class="memItemRight" valign="bottom"><b>CommonColor</b> =&gt; commonColor</td></tr>
-<tr class="separator:a6c5023adee3e916c84a779d57682ab95"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39541d2a36dbc7c8a65f8f7c0ebab33e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39541d2a36dbc7c8a65f8f7c0ebab33e"></a>
-Color&#160;</td><td class="memItemRight" valign="bottom"><b>UncommonColor</b> =&gt; uncommonColor</td></tr>
-<tr class="separator:a39541d2a36dbc7c8a65f8f7c0ebab33e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a663bcbfe33010a6adbc1d940144d5f3f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a663bcbfe33010a6adbc1d940144d5f3f"></a>
-Color&#160;</td><td class="memItemRight" valign="bottom"><b>RareColor</b> =&gt; rareColor</td></tr>
-<tr class="separator:a663bcbfe33010a6adbc1d940144d5f3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2c7729daaa189181be2753b78377742"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af2c7729daaa189181be2753b78377742"></a>
-Color&#160;</td><td class="memItemRight" valign="bottom"><b>LegendaryColor</b> =&gt; legendaryColor</td></tr>
-<tr class="separator:af2c7729daaa189181be2753b78377742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a55ac1298f643a8ac6890048ef06a190d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a55ac1298f643a8ac6890048ef06a190d"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetInstance</b> (<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html">CardLoader</a> obj)</td></tr>
+<tr class="separator:a55ac1298f643a8ac6890048ef06a190d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -157,8 +172,13 @@ static <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_
 <tr class="separator:a98a7518a7eb935f6bb867fefcc0930ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>This class represents a container for all information about cards. </p>
-<p>It loads this information from the database. The information of a card can be loaded by using <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html#a829bfb8b31bc9037cbdee58aefe3978d" title="Allows access to card information over id. ">GetCardById()</a>. It is implemented as a singleton. </p><dl class="section author"><dt>Author</dt><dd>John Beinecke </dd></dl>
+<div class="textblock"><p>This class represents a container for all information about cards and cardSets. </p>
+<p>It loads this information from the database. The information is loaded in this order:</p><ol type="1">
+<li><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_set.html" title="This class represents a card set. ">CardSet</a> information</li>
+<li>Card information</li>
+<li>Images for cards (locally) The information of a card can be loaded by using <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_loader.html#a829bfb8b31bc9037cbdee58aefe3978d" title="Allows access to card information over id. ">GetCardById()</a>. It is implemented as a singleton. <dl class="section author"><dt>Author</dt><dd>John Beinecke </dd></dl>
+</li>
+</ol>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a829bfb8b31bc9037cbdee58aefe3978d"></a>
 <div class="memitem">
@@ -191,6 +211,68 @@ static <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_
 
 </div>
 </div>
+<a class="anchor" id="a225ccb1e9e8b30151871fc8c5a42cff5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_set.html">CardSet</a> Framework.Scripts.CardSystem.CardLoader.GetCardSetForId </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>cardSetId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gets a card set for a given card set id. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cardSetId</td><td>Id of card set to get</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_set.html" title="This class represents a card set. ">CardSet</a> with given id</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentException</td><td>Card set does not exist</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="af320e85acb4d42b05616b58cad257879"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color Framework.Scripts.CardSystem.CardLoader.GetColorForRarity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5">CardRarity</a>&#160;</td>
+          <td class="paramname"><em>rarity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the color for a given card rarity. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">rarity</td><td>Card rarity to get color for</td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Color for card rarity</dd></dl>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">ArgumentException</td><td>The card rarity does not exist</td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a class="anchor" id="ab88341780cfa2c382d0f2fd9e9c014c8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -206,7 +288,12 @@ static <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_
 </div><div class="memdoc">
 
 <p>Gets the id of a random card that has a given rarity. </p>
-<p>&lt;param name="cardRarityrity to look for</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">cardRarity</td><td>CardRarity to look for</td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>Random card id with wanted rarity</dd></dl>
 
 </div>

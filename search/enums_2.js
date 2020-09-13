@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['tradestate',['TradeState',['../namespace_framework_1_1_scripts_1_1_trading_system.html#ac503e1b50742b47752988e8079271970',1,'Framework::Scripts::TradingSystem']]]
+  ['soundeffect',['SoundEffect',['../namespace_framework_1_1_scripts_1_1_util.html#a313afd401d61532fd8338a65c8889c02',1,'Framework::Scripts::Util']]]
 ];
