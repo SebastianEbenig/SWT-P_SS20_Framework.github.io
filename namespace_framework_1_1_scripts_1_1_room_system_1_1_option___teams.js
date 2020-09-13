@@ -1,5 +1,0 @@
-var namespace_framework_1_1_scripts_1_1_room_system_1_1_option___teams =
-[
-    [ "Teams_RoomPlayer", "class_framework_1_1_scripts_1_1_room_system_1_1_option___teams_1_1_teams___room_player.html", "class_framework_1_1_scripts_1_1_room_system_1_1_option___teams_1_1_teams___room_player" ],
-    [ "Teams_RoomPlayerContainer", "class_framework_1_1_scripts_1_1_room_system_1_1_option___teams_1_1_teams___room_player_container.html", "class_framework_1_1_scripts_1_1_room_system_1_1_option___teams_1_1_teams___room_player_container" ]
-];
