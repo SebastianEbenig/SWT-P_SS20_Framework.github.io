@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['name',['name',['../class_framework_1_1_scripts_1_1_player_1_1_player_info.html#a2e0c81304f06dd2f3138a7975033405e',1,'Framework::Scripts::Player::PlayerInfo']]],
-  ['notreadycolor',['notReadyColor',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_player_container.html#a020fa7c3019167d3a19b746d67d8287d',1,'Framework::Scripts::RoomSystem::RoomPlayerContainer']]]
+  ['loggedinuser',['LoggedInUser',['../class_framework_1_1_scripts_1_1_login_system_1_1_login.html#a410fee0fe8266d8bed2b09f8b88e61e5',1,'Framework::Scripts::LoginSystem::Login']]],
+  ['logincanvas',['LoginCanvas',['../class_framework_1_1_scripts_1_1_util_1_1_global_manager.html#a82f96328fa342cbc65aa523c4a2d6df3',1,'Framework::Scripts::Util::GlobalManager']]]
 ];

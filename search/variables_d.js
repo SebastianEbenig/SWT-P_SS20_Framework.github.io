@@ -1,4 +1,19 @@
 var searchData=
 [
-  ['text',['Text',['../class_framework_1_1_scripts_1_1_message_struct.html#a0e2589ae2c1a1dced98454900493bf1a',1,'Framework::Scripts::MessageStruct']]]
+  ['readybutton',['readyButton',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_player_container.html#a2aefc8df4e5e1c81f648f7da277c104a',1,'Framework::Scripts::RoomSystem::RoomPlayerContainer']]],
+  ['readycolor',['readyColor',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_player_container.html#ab1964ad979199701da56a167c2485a37',1,'Framework::Scripts::RoomSystem::RoomPlayerContainer']]],
+  ['readydisabledcolor',['readyDisabledColor',['../class_framework_1_1_scripts_1_1_room_system_1_1_option___card_offer_1_1_card_offer___room_player_container.html#a015a0cdd25f1e84b66397c44ad0e8ac9',1,'Framework::Scripts::RoomSystem::Option_CardOffer::CardOffer_RoomPlayerContainer']]],
+  ['reciever',['reciever',['../class_framework_1_1_scripts_1_1_message_struct.html#ab8e4b6a5b8d2c2574fb15a62688425a2',1,'Framework::Scripts::MessageStruct']]],
+  ['reference',['reference',['../class_framework_1_1_scripts_1_1_login_system_1_1_login.html#ab09879917d5657622879e1c74c471280',1,'Framework::Scripts::LoginSystem::Login']]],
+  ['registercanvas',['RegisterCanvas',['../class_framework_1_1_scripts_1_1_util_1_1_global_manager.html#a45bc2c33cf83811d4b678b423805fabd',1,'Framework::Scripts::Util::GlobalManager']]],
+  ['roomcontainerprefab',['roomContainerPrefab',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_overview_g_u_i.html#a8193c4d5f51936dbd42c3bd8250e30bf',1,'Framework::Scripts::RoomSystem::RoomOverviewGUI']]],
+  ['roomhostprefab',['roomHostPrefab',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_overview_g_u_i.html#a17bab0676baff7d7b410f33d885ad7b6',1,'Framework::Scripts::RoomSystem::RoomOverviewGUI']]],
+  ['roomid',['RoomId',['../class_framework_1_1_scripts_1_1_room_system_1_1_room.html#a4e4846d5ddfedd7faf0536b796113f66',1,'Framework::Scripts::RoomSystem::Room']]],
+  ['roominfodisplay',['roomInfoDisplay',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_g_u_i.html#ab479107a1580b126cf0484ea07fb4719',1,'Framework::Scripts::RoomSystem::RoomGUI']]],
+  ['roomname',['RoomName',['../class_framework_1_1_scripts_1_1_room_system_1_1_room.html#a091d34ae447d783049f0b314c6512504',1,'Framework::Scripts::RoomSystem::Room']]],
+  ['roomnameinput',['RoomNameInput',['../class_framework_1_1_scripts_1_1_room_system_1_1_host_room.html#a0e30abbf41425ee40253ebf4b60c5ca7',1,'Framework::Scripts::RoomSystem::HostRoom']]],
+  ['roomnametext',['roomNameText',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_g_u_i.html#aae6d086692e306512c78c8e334da3067',1,'Framework::Scripts::RoomSystem::RoomGUI']]],
+  ['roomplayercontainerprefab',['roomPlayerContainerPrefab',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_g_u_i.html#a17c29b05b45c6819f0ff1a44f0b60fb1',1,'Framework::Scripts::RoomSystem::RoomGUI']]],
+  ['roomplayers',['RoomPlayers',['../class_framework_1_1_scripts_1_1_room_system_1_1_room.html#a17aefa411d285ab10cabba840bbf0b52',1,'Framework::Scripts::RoomSystem::Room']]],
+  ['rooms',['Rooms',['../class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a9ef3e34c720c275b0d1228497e0de6e5',1,'Framework::Scripts::RoomSystem::GameLobbyController']]]
 ];

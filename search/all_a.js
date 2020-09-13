@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['legendary',['LEGENDARY',['../namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5acdd0e73cb8dc2aa3bbe7d44a9fb93af0',1,'Framework::Scripts::CardSystem']]],
   ['loadcard',['LoadCard',['../class_framework_1_1_scripts_1_1_card_system_1_1_card_container.html#afab46bfba513c9febaba3a733d134b16',1,'Framework::Scripts::CardSystem::CardContainer']]],
   ['loadhostroomcontainer',['LoadHostRoomContainer',['../class_framework_1_1_scripts_1_1_room_system_1_1_host_room.html#aa1ca0f16b3fdcc70d81d6fbf7d435ea5',1,'Framework::Scripts::RoomSystem::HostRoom']]],
   ['loadinventoriesfromdatabase',['LoadInventoriesFromDatabase',['../class_framework_1_1_scripts_1_1_player_1_1_inventory_controller.html#a5a3ba7b8eac11d28d5ae8895deae446f',1,'Framework::Scripts::Player::InventoryController']]],
@@ -13,7 +14,9 @@ var searchData=
   ['loadtradingpartneroffer',['LoadTradingPartnerOffer',['../class_framework_1_1_scripts_1_1_trading_system_1_1_trading_u_i.html#a6d6800f4fe84172629603b05ba268738',1,'Framework::Scripts::TradingSystem::TradingUI']]],
   ['loadtradingui',['LoadTradingUI',['../class_framework_1_1_scripts_1_1_trading_system_1_1_trading_u_i.html#a6d461b6eb34ea7dd6c9b5243535ba2b3',1,'Framework::Scripts::TradingSystem::TradingUI']]],
   ['loadvaluesintogui',['LoadValuesIntoGUI',['../class_framework_1_1_scripts_1_1_room_system_1_1_g_u_i_elements_1_1_g_u_i___dropdown.html#a6f03e5a66eec1bd9090255a95653092f',1,'Framework.Scripts.RoomSystem.GUIElements.GUI_Dropdown.LoadValuesIntoGUI()'],['../class_framework_1_1_scripts_1_1_room_system_1_1_g_u_i_elements_1_1_g_u_i___element.html#a5cf15499b684517e7be5b2c30b73d8a9',1,'Framework.Scripts.RoomSystem.GUIElements.GUI_Element.LoadValuesIntoGUI()'],['../class_framework_1_1_scripts_1_1_room_system_1_1_g_u_i_elements_1_1_g_u_i___label.html#abf63927a31a24f6ce56b85ec87534e70',1,'Framework.Scripts.RoomSystem.GUIElements.GUI_Label.LoadValuesIntoGUI()'],['../class_framework_1_1_scripts_1_1_room_system_1_1_g_u_i_elements_1_1_g_u_i___slider.html#aa42a85c13148678ccf5ca93e4096fb6d',1,'Framework.Scripts.RoomSystem.GUIElements.GUI_Slider.LoadValuesIntoGUI()']]],
+  ['loggedinuser',['LoggedInUser',['../class_framework_1_1_scripts_1_1_login_system_1_1_login.html#a410fee0fe8266d8bed2b09f8b88e61e5',1,'Framework::Scripts::LoginSystem::Login']]],
   ['login',['Login',['../class_framework_1_1_scripts_1_1_login_system_1_1_login.html',1,'Framework::Scripts::LoginSystem']]],
+  ['login_2ecs',['Login.cs',['../_login_8cs.html',1,'']]],
   ['logincanvas',['LoginCanvas',['../class_framework_1_1_scripts_1_1_util_1_1_global_manager.html#a82f96328fa342cbc65aa523c4a2d6df3',1,'Framework::Scripts::Util::GlobalManager']]],
   ['logoutanddisconnect',['logoutAndDisconnect',['../class_framework_1_1_scripts_1_1_login_system_1_1_login.html#aeb3ac93a662191d5758673b308403944',1,'Framework::Scripts::LoginSystem::Login']]]
 ];

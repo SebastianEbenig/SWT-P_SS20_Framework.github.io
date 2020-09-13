@@ -45,7 +45,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -92,7 +94,7 @@ $(document).ready(function(){initNavTree('class_framework_1_1_scripts_1_1_card_s
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -131,23 +133,19 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a130923738a846704743247c3e92a5a15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package.html">Package</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html#a130923738a846704743247c3e92a5a15">GetPackageForId</a> (int id)</td></tr>
 <tr class="memdesc:a130923738a846704743247c3e92a5a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the package with given id  <a href="#a130923738a846704743247c3e92a5a15">More...</a><br /></td></tr>
 <tr class="separator:a130923738a846704743247c3e92a5a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57756336a9e28036aedaefc7dcd69a2e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a57756336a9e28036aedaefc7dcd69a2e"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPackages</b> (List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package.html">Package</a> &gt; newPackages)</td></tr>
+<tr class="memitem:a57756336a9e28036aedaefc7dcd69a2e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html#a57756336a9e28036aedaefc7dcd69a2e">SetPackages</a> (List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package.html">Package</a> &gt; newPackages)</td></tr>
 <tr class="separator:a57756336a9e28036aedaefc7dcd69a2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96204717bb4be7854f73c3b1d8cbd2e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a96204717bb4be7854f73c3b1d8cbd2e6"></a>
-List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package.html">Package</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetPackages</b> ()</td></tr>
+<tr class="memitem:a96204717bb4be7854f73c3b1d8cbd2e6"><td class="memItemLeft" align="right" valign="top">List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package.html">Package</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html#a96204717bb4be7854f73c3b1d8cbd2e6">GetPackages</a> ()</td></tr>
 <tr class="separator:a96204717bb4be7854f73c3b1d8cbd2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a808a17971274a6966a4fc50efe540209"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a808a17971274a6966a4fc50efe540209"></a>
-static void&#160;</td><td class="memItemRight" valign="bottom"><b>SetInstance</b> (<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html">PackageLoader</a> packageLoader)</td></tr>
+<tr class="memitem:a808a17971274a6966a4fc50efe540209"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html#a808a17971274a6966a4fc50efe540209">SetInstance</a> (<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html">PackageLoader</a> packageLoader)</td></tr>
 <tr class="separator:a808a17971274a6966a4fc50efe540209"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:af9dacbf31a3c4c4322af96b22be4a377"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af9dacbf31a3c4c4322af96b22be4a377"></a>
-static <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html">PackageLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><b>Instance</b> =&gt; instance</td></tr>
+<tr class="memitem:af9dacbf31a3c4c4322af96b22be4a377"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html">PackageLoader</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html#af9dacbf31a3c4c4322af96b22be4a377">Instance</a> =&gt; instance</td></tr>
 <tr class="separator:af9dacbf31a3c4c4322af96b22be4a377"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -179,6 +177,21 @@ static <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_packa
 
 </div>
 </div>
+<a class="anchor" id="a96204717bb4be7854f73c3b1d8cbd2e6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">List&lt;<a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package.html">Package</a>&gt; Framework.Scripts.CardSystem.PackageLoader.GetPackages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a8bf0906d4239cc8d11cf6847532e5dc4"></a>
 <div class="memitem">
 <div class="memproto">
@@ -204,8 +217,80 @@ static <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_packa
 
 </div>
 </div>
+<a class="anchor" id="a808a17971274a6966a4fc50efe540209"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void Framework.Scripts.CardSystem.PackageLoader.SetInstance </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html">PackageLoader</a>&#160;</td>
+          <td class="paramname"><em>packageLoader</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a57756336a9e28036aedaefc7dcd69a2e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Framework.Scripts.CardSystem.PackageLoader.SetPackages </td>
+          <td>(</td>
+          <td class="paramtype">List&lt; <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package.html">Package</a> &gt;&#160;</td>
+          <td class="paramname"><em>newPackages</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="af9dacbf31a3c4c4322af96b22be4a377"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html">PackageLoader</a> Framework.Scripts.CardSystem.PackageLoader.Instance =&gt; instance</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>SWT-P_SS20_Framework/Assets/Framework/Scripts/CardSystem/PackageLoader.cs</li>
+<li>C:/Users/Jaromir/Documents/GitHub/SWT-P_SS20_Framework/Assets/Framework/Scripts/CardSystem/<a class="el" href="_package_loader_8cs.html">PackageLoader.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_framework.html">Framework</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html">CardSystem</a></li><li class="navelem"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_loader.html">PackageLoader</a></li>
+    <li class="footer">Generated on Mon Sep 14 2020 00:24:34 for SWTP2020_Framework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

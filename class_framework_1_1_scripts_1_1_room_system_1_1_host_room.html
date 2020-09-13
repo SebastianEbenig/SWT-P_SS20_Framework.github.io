@@ -45,7 +45,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -92,7 +94,7 @@ $(document).ready(function(){initNavTree('class_framework_1_1_scripts_1_1_room_s
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -133,11 +135,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2885523fcaafe40dde5766e23314bcfe"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2885523fcaafe40dde5766e23314bcfe"></a>
-Button&#160;</td><td class="memItemRight" valign="bottom"><b>HostButton</b> =&gt; hostButton</td></tr>
+<tr class="memitem:a2885523fcaafe40dde5766e23314bcfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="_host_room_8cs.html#ae0a15c07b75b70d4c3de2671d2c9f0f4">Button</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_host_room.html#a2885523fcaafe40dde5766e23314bcfe">HostButton</a> =&gt; hostButton</td></tr>
 <tr class="separator:a2885523fcaafe40dde5766e23314bcfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e30abbf41425ee40253ebf4b60c5ca7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e30abbf41425ee40253ebf4b60c5ca7"></a>
-InputField&#160;</td><td class="memItemRight" valign="bottom"><b>RoomNameInput</b> =&gt; roomNameInput</td></tr>
+<tr class="memitem:a0e30abbf41425ee40253ebf4b60c5ca7"><td class="memItemLeft" align="right" valign="top">InputField&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_host_room.html#a0e30abbf41425ee40253ebf4b60c5ca7">RoomNameInput</a> =&gt; roomNameInput</td></tr>
 <tr class="separator:a0e30abbf41425ee40253ebf4b60c5ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -198,8 +198,44 @@ InputField&#160;</td><td class="memItemRight" valign="bottom"><b>RoomNameInput</
 
 </div>
 </div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a2885523fcaafe40dde5766e23314bcfe"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="_host_room_8cs.html#ae0a15c07b75b70d4c3de2671d2c9f0f4">Button</a> Framework.Scripts.RoomSystem.HostRoom.HostButton =&gt; hostButton</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a0e30abbf41425ee40253ebf4b60c5ca7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">InputField Framework.Scripts.RoomSystem.HostRoom.RoomNameInput =&gt; roomNameInput</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>SWT-P_SS20_Framework/Assets/Framework/Scripts/RoomSystem/HostRoom.cs</li>
+<li>C:/Users/Jaromir/Documents/GitHub/SWT-P_SS20_Framework/Assets/Framework/Scripts/RoomSystem/<a class="el" href="_host_room_8cs.html">HostRoom.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_framework.html">Framework</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts_1_1_room_system.html">RoomSystem</a></li><li class="navelem"><a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_host_room.html">HostRoom</a></li>
+    <li class="footer">Generated on Mon Sep 14 2020 00:24:34 for SWTP2020_Framework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -45,7 +45,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li class="current"><a href="namespaces.html"><span>Packages</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -66,6 +68,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li><a href="namespacemembers.html"><span>Package&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -89,7 +92,7 @@ $(document).ready(function(){initNavTree('namespace_framework_1_1_scripts_1_1_ut
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -133,9 +136,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:a313afd401d61532fd8338a65c8889c02"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_framework_1_1_scripts_1_1_util.html#a313afd401d61532fd8338a65c8889c02">SoundEffect</a> { <b>CLICK</b>, 
-<b>COINS</b>, 
-<b>SUCCESS</b>
+<tr class="memitem:a313afd401d61532fd8338a65c8889c02"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_framework_1_1_scripts_1_1_util.html#a313afd401d61532fd8338a65c8889c02">SoundEffect</a> { <a class="el" href="namespace_framework_1_1_scripts_1_1_util.html#a313afd401d61532fd8338a65c8889c02a40600390b96d1c218ae0d475f977e25b">SoundEffect.CLICK</a>, 
+<a class="el" href="namespace_framework_1_1_scripts_1_1_util.html#a313afd401d61532fd8338a65c8889c02ae567402985b2d62bb90047a8b5545f47">SoundEffect.COINS</a>, 
+<a class="el" href="namespace_framework_1_1_scripts_1_1_util.html#a313afd401d61532fd8338a65c8889c02ad0749aaba8b833466dfcbb0428e4f89c">SoundEffect.SUCCESS</a>
  }</td></tr>
 <tr class="memdesc:a313afd401d61532fd8338a65c8889c02"><td class="mdescLeft">&#160;</td><td class="mdescRight">This enum represents different sound effects that can be played via the SoundManagers PlaySound() function.  <a href="namespace_framework_1_1_scripts_1_1_util.html#a313afd401d61532fd8338a65c8889c02">More...</a><br /></td></tr>
 <tr class="separator:a313afd401d61532fd8338a65c8889c02"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,8 +156,27 @@ Enumerations</h2></td></tr>
 
 <p>This enum represents different sound effects that can be played via the SoundManagers PlaySound() function. </p>
 <dl class="section author"><dt>Author</dt><dd>John Beinecke </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="a313afd401d61532fd8338a65c8889c02a40600390b96d1c218ae0d475f977e25b"></a>CLICK&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a313afd401d61532fd8338a65c8889c02ae567402985b2d62bb90047a8b5545f47"></a>COINS&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="a313afd401d61532fd8338a65c8889c02ad0749aaba8b833466dfcbb0428e4f89c"></a>SUCCESS&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_framework.html">Framework</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts_1_1_util.html">Util</a></li>
+    <li class="footer">Generated on Mon Sep 14 2020 00:24:34 for SWTP2020_Framework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['filesnotfoundcontainer',['filesNotFoundContainer',['../class_framework_1_1_scripts_1_1_room_system_1_1_room_overview_g_u_i.html#adb9e4afae744bef73c31c2e227e654f0',1,'Framework::Scripts::RoomSystem::RoomOverviewGUI']]],
-  ['forgotcanvas',['ForgotCanvas',['../class_framework_1_1_scripts_1_1_util_1_1_global_manager.html#ab592f679021acc80c62e15b3895cfd4f',1,'Framework::Scripts::Util::GlobalManager']]]
+  ['email',['email',['../class_framework_1_1_scripts_1_1_login_system_1_1_user_info.html#a12d879334b982bc1970e8c21002f7d12',1,'Framework.Scripts.LoginSystem.UserInfo.email()'],['../class_framework_1_1_scripts_1_1_player_1_1_database_user.html#ab148bea39bc69fb2123705bd80f13793',1,'Framework.Scripts.Player.DatabaseUser.Email()']]]
 ];

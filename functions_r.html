@@ -45,7 +45,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -77,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_prop.html"><span>Properties</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -124,7 +127,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -134,7 +137,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
+<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>ReadRoom()
@@ -191,7 +194,7 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 : <a class="el" href="class_framework_1_1_scripts_1_1_trading_system_1_1_trading_u_i.html#ac4dbef9fbb16e513f7efb26dc9105bb6">Framework.Scripts.TradingSystem.TradingUI</a>
 </li>
 <li>Room()
-: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html#ad313e923f0092cacb2c6b1535cff37ce">Framework.Scripts.RoomSystem.Room</a>
+: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html#a27ec6a231034ea5830a88555a1b40c1b">Framework.Scripts.RoomSystem.Room</a>
 </li>
 <li>roomContainerPrefab
 : <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_overview_g_u_i.html#a8193c4d5f51936dbd42c3bd8250e30bf">Framework.Scripts.RoomSystem.RoomOverviewGUI</a>
@@ -199,18 +202,43 @@ $(document).ready(function(){initNavTree('functions_r.html','');});
 <li>roomHostPrefab
 : <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_overview_g_u_i.html#a17bab0676baff7d7b410f33d885ad7b6">Framework.Scripts.RoomSystem.RoomOverviewGUI</a>
 </li>
+<li>RoomId
+: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html#a4e4846d5ddfedd7faf0536b796113f66">Framework.Scripts.RoomSystem.Room</a>
+</li>
 <li>roomInfoDisplay
 : <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_g_u_i.html#ab479107a1580b126cf0484ea07fb4719">Framework.Scripts.RoomSystem.RoomGUI</a>
+</li>
+<li>RoomName
+: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html#a091d34ae447d783049f0b314c6512504">Framework.Scripts.RoomSystem.Room</a>
+</li>
+<li>RoomNameInput
+: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_host_room.html#a0e30abbf41425ee40253ebf4b60c5ca7">Framework.Scripts.RoomSystem.HostRoom</a>
 </li>
 <li>roomNameText
 : <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_g_u_i.html#aae6d086692e306512c78c8e334da3067">Framework.Scripts.RoomSystem.RoomGUI</a>
 </li>
 <li>RoomPlayer()
-: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html#a800830cf7523cc2546b86f5511b850c5">Framework.Scripts.RoomSystem.RoomPlayer</a>
+: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html#a55b1c0392ded0c02b75669147c427ee6">Framework.Scripts.RoomSystem.RoomPlayer</a>
 </li>
 <li>roomPlayerContainerPrefab
 : <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_g_u_i.html#a17c29b05b45c6819f0ff1a44f0b60fb1">Framework.Scripts.RoomSystem.RoomGUI</a>
 </li>
+<li>RoomPlayers
+: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room.html#a17aefa411d285ab10cabba840bbf0b52">Framework.Scripts.RoomSystem.Room</a>
+</li>
+<li>Rooms
+: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game_lobby_controller.html#a9ef3e34c720c275b0d1228497e0de6e5">Framework.Scripts.RoomSystem.GameLobbyController</a>
+</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Mon Sep 14 2020 00:24:34 for SWTP2020_Framework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

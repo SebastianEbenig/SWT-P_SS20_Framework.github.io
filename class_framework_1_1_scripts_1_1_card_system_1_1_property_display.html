@@ -45,7 +45,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -92,7 +94,7 @@ $(document).ready(function(){initNavTree('class_framework_1_1_scripts_1_1_card_s
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -126,23 +128,49 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3f19148b43684663fa5b750ea3aa8612"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_property_display.html#a3f19148b43684663fa5b750ea3aa8612">LoadPropertyButton</a> (string property, int value)</td></tr>
 <tr class="memdesc:a3f19148b43684663fa5b750ea3aa8612"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads the values into the button.  <a href="#a3f19148b43684663fa5b750ea3aa8612">More...</a><br /></td></tr>
 <tr class="separator:a3f19148b43684663fa5b750ea3aa8612"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7530b1a6015b6bdf828610adf670aa18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7530b1a6015b6bdf828610adf670aa18"></a>
-Text&#160;</td><td class="memItemRight" valign="bottom"><b>GetPropertyText</b> ()</td></tr>
+<tr class="memitem:a7530b1a6015b6bdf828610adf670aa18"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_property_display.html#a7530b1a6015b6bdf828610adf670aa18">GetPropertyText</a> ()</td></tr>
 <tr class="separator:a7530b1a6015b6bdf828610adf670aa18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a736e2940850ade1708a95102ac860078"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a736e2940850ade1708a95102ac860078"></a>
-Text&#160;</td><td class="memItemRight" valign="bottom"><b>GetValueText</b> ()</td></tr>
+<tr class="memitem:a736e2940850ade1708a95102ac860078"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_property_display.html#a736e2940850ade1708a95102ac860078">GetValueText</a> ()</td></tr>
 <tr class="separator:a736e2940850ade1708a95102ac860078"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a562d372ce17cb8c8809dfc7f65a5b600"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a562d372ce17cb8c8809dfc7f65a5b600"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetPropertyText</b> (Text text)</td></tr>
+<tr class="memitem:a562d372ce17cb8c8809dfc7f65a5b600"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_property_display.html#a562d372ce17cb8c8809dfc7f65a5b600">SetPropertyText</a> (Text text)</td></tr>
 <tr class="separator:a562d372ce17cb8c8809dfc7f65a5b600"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb644ee3d8f01bce89cd4b1e3e7782f1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb644ee3d8f01bce89cd4b1e3e7782f1"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>SetValueText</b> (Text text)</td></tr>
+<tr class="memitem:afb644ee3d8f01bce89cd4b1e3e7782f1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_property_display.html#afb644ee3d8f01bce89cd4b1e3e7782f1">SetValueText</a> (Text text)</td></tr>
 <tr class="separator:afb644ee3d8f01bce89cd4b1e3e7782f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This class represents a button responsible for a property on card. </p>
 <p>It provides functionality for displaying and selecting the property of a card. &lt;author&gt;John Beinecke&lt;/author&gt; </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a7530b1a6015b6bdf828610adf670aa18"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text Framework.Scripts.CardSystem.PropertyDisplay.GetPropertyText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a736e2940850ade1708a95102ac860078"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text Framework.Scripts.CardSystem.PropertyDisplay.GetValueText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a3f19148b43684663fa5b750ea3aa8612"></a>
 <div class="memitem">
 <div class="memproto">
@@ -179,8 +207,51 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>SetValueText</b> (Tex
 
 </div>
 </div>
+<a class="anchor" id="a562d372ce17cb8c8809dfc7f65a5b600"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Framework.Scripts.CardSystem.PropertyDisplay.SetPropertyText </td>
+          <td>(</td>
+          <td class="paramtype">Text&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afb644ee3d8f01bce89cd4b1e3e7782f1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Framework.Scripts.CardSystem.PropertyDisplay.SetValueText </td>
+          <td>(</td>
+          <td class="paramtype">Text&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>SWT-P_SS20_Framework/Assets/Framework/Scripts/CardSystem/PropertyDisplay.cs</li>
+<li>C:/Users/Jaromir/Documents/GitHub/SWT-P_SS20_Framework/Assets/Framework/Scripts/CardSystem/<a class="el" href="_property_display_8cs.html">PropertyDisplay.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_framework.html">Framework</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html">CardSystem</a></li><li class="navelem"><a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_property_display.html">PropertyDisplay</a></li>
+    <li class="footer">Generated on Mon Sep 14 2020 00:24:34 for SWTP2020_Framework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

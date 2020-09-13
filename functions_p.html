@@ -45,7 +45,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -77,6 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li class="current"><a href="functions.html"><span>All</span></a></li>
       <li><a href="functions_func.html"><span>Functions</span></a></li>
       <li><a href="functions_vars.html"><span>Variables</span></a></li>
+      <li><a href="functions_prop.html"><span>Properties</span></a></li>
     </ul>
   </div>
   <div id="navrow4" class="tabs3">
@@ -124,7 +127,7 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -134,20 +137,27 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all documented class members with links to the class documentation for each member:</div>
+<div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>Package()
 : <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package.html#a8a57ed4b1c6c84ccce4fddae42fd3dd2">Framework.Scripts.CardSystem.Package</a>
+</li>
+<li>PackageId
+: <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_package_container.html#a4ffa31819cc173b89d9f60911ecbaa2b">Framework.Scripts.CardSystem.PackageContainer</a>
 </li>
 <li>playerAmountText
 : <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_g_u_i.html#ae51cf6b6a15356b8c63142851eea04d8">Framework.Scripts.RoomSystem.RoomGUI</a>
 </li>
 <li>PlayerInfo()
 : <a class="el" href="class_framework_1_1_scripts_1_1_player_1_1_player_info.html#a874832434772e5e4fa65bc14e6f1de85">Framework.Scripts.Player.PlayerInfo</a>
+, <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player.html#a8b1170731c297a6ad6f6339a93c47c65">Framework.Scripts.RoomSystem.RoomPlayer</a>
 </li>
 <li>playerInfoText
 : <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_player_container.html#a5b4b96e871dfc98c4e78ce689caea4ae">Framework.Scripts.RoomSystem.RoomPlayerContainer</a>
+</li>
+<li>PlayerLobbyOption
+: <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_game.html#a6a44bcd794085a0e17874457fafd4cd2">Framework.Scripts.RoomSystem.Game</a>
 </li>
 <li>playerRangeText
 : <a class="el" href="class_framework_1_1_scripts_1_1_room_system_1_1_room_g_u_i.html#ab85056407592b9ec058ae8c998214eb5">Framework.Scripts.RoomSystem.RoomGUI</a>
@@ -159,9 +169,25 @@ $(document).ready(function(){initNavTree('functions_p.html','');});
 <li>port
 : <a class="el" href="class_framework_1_1_scripts_1_1_server.html#a82c55e02c0fc3cf70b30fcfe5cd414ab">Framework.Scripts.Server</a>
 </li>
+<li>Properties
+: <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_card_set.html#a34812dbf312bdbbbfe5d15b9e82cb763">Framework.Scripts.CardSystem.CardSet</a>
+</li>
 <li>Property()
 : <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_property.html#a3f964bcdcf37d5e8fd1be85130879a5f">Framework.Scripts.CardSystem.Property</a>
+</li>
+<li>PropertyId
+: <a class="el" href="class_framework_1_1_scripts_1_1_card_system_1_1_property.html#a141d7a40ed846cf4dbfbb3aeae703002">Framework.Scripts.CardSystem.Property</a>
 </li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated on Mon Sep 14 2020 00:24:34 for SWTP2020_Framework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

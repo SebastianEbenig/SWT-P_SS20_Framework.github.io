@@ -45,7 +45,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   <div id="navrow1" class="tabs">
     <ul class="tablist">
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li class="current"><a href="namespaces.html"><span>Packages</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -66,6 +68,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
   <div id="navrow2" class="tabs2">
     <ul class="tablist">
+      <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li><a href="namespacemembers.html"><span>Package&#160;Functions</span></a></li>
     </ul>
   </div>
@@ -89,7 +92,7 @@ $(document).ready(function(){initNavTree('namespace_framework_1_1_scripts_1_1_ca
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Enumerator</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Files</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Variables</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(6)"><span class="SelectionMark">&#160;</span>Typedefs</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(7)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(8)"><span class="SelectionMark">&#160;</span>Enumerator</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(9)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -154,10 +157,10 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aa7e33fa13a68a53c0364f160697055a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5">CardRarity</a> { <b>COMMON</b>, 
-<b>UNCOMMON</b>, 
-<b>RARE</b>, 
-<b>LEGENDARY</b>
+<tr class="memitem:aa7e33fa13a68a53c0364f160697055a5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5">CardRarity</a> { <a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5adda4b7de10e14445366494f0a76e1435">CardRarity.COMMON</a>, 
+<a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5a07b92bec022d993b4258f6a3dae029ac">CardRarity.UNCOMMON</a>, 
+<a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5ab052b0150bd3e428acade3223ac2e5e2">CardRarity.RARE</a>, 
+<a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5acdd0e73cb8dc2aa3bbe7d44a9fb93af0">CardRarity.LEGENDARY</a>
  }</td></tr>
 <tr class="memdesc:aa7e33fa13a68a53c0364f160697055a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Different rarities a card can have.  <a href="namespace_framework_1_1_scripts_1_1_card_system.html#aa7e33fa13a68a53c0364f160697055a5">More...</a><br /></td></tr>
 <tr class="separator:aa7e33fa13a68a53c0364f160697055a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -175,8 +178,29 @@ Enumerations</h2></td></tr>
 
 <p>Different rarities a card can have. </p>
 <dl class="section author"><dt>Author</dt><dd>John Beinecke </dd></dl>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a class="anchor" id="aa7e33fa13a68a53c0364f160697055a5adda4b7de10e14445366494f0a76e1435"></a>COMMON&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa7e33fa13a68a53c0364f160697055a5a07b92bec022d993b4258f6a3dae029ac"></a>UNCOMMON&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa7e33fa13a68a53c0364f160697055a5ab052b0150bd3e428acade3223ac2e5e2"></a>RARE&#160;</td><td class="fielddoc">
+</td></tr>
+<tr><td class="fieldname"><a class="anchor" id="aa7e33fa13a68a53c0364f160697055a5acdd0e73cb8dc2aa3bbe7d44a9fb93af0"></a>LEGENDARY&#160;</td><td class="fielddoc">
+</td></tr>
+</table>
 
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_framework.html">Framework</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_framework_1_1_scripts_1_1_card_system.html">CardSystem</a></li>
+    <li class="footer">Generated on Mon Sep 14 2020 00:24:34 for SWTP2020_Framework by
+    <a href="http://www.doxygen.org/index.html">
+    <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.8 </li>
+  </ul>
+</div>
+</body>
+</html>

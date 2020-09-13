@@ -1,10 +1,13 @@
 var NAVTREE =
 [
   [ "SWTP2020_Framework", "index.html", [
-    [ "Package Functions", "namespacemembers.html", [
-      [ "All", "namespacemembers.html", null ],
-      [ "Enumerations", "namespacemembers_enum.html", null ],
-      [ "Enumerator", "namespacemembers_eval.html", null ]
+    [ "Packages", null, [
+      [ "Packages", "namespaces.html", "namespaces" ],
+      [ "Package Functions", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ],
+        [ "Enumerator", "namespacemembers_eval.html", null ]
+      ] ]
     ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
@@ -13,7 +16,15 @@ var NAVTREE =
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
         [ "Functions", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", null ]
+        [ "Variables", "functions_vars.html", null ],
+        [ "Properties", "functions_prop.html", null ]
+      ] ]
+    ] ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Typedefs", "globals_type.html", null ]
       ] ]
     ] ]
   ] ]
@@ -21,9 +32,9 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"annotated.html",
-"class_framework_1_1_scripts_1_1_room_system_1_1_option___card_offer_1_1_card_offer___room_player_container.html#a015a0cdd25f1e84b66397c44ad0e8ac9",
-"functions_func_p.html"
+"_betting_inventory_8cs.html",
+"class_framework_1_1_scripts_1_1_login_system_1_1_user_info.html#a12d879334b982bc1970e8c21002f7d12",
+"class_framework_1_1_scripts_1_1_util_1_1_player_hint.html#a41ac8be8cb9ed9f8293c2bba37dffc37"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
